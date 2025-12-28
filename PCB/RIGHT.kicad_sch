@@ -1,0 +1,2873 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "abee6a41-74bc-48e3-812d-b3afd1945339")
+	(paper "A4")
+	(lib_symbols
+		(symbol "ATOM:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ATOM:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 182.88 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d10a887-726f-42b4-b98f-25c05a9e240c")
+	)
+	(junction
+		(at 199.39 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38586764-1535-43a0-8326-82cc67614869")
+	)
+	(junction
+		(at 182.88 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5462fa9a-204c-43cb-9133-9f0a32d14da9")
+	)
+	(junction
+		(at 232.41 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56ada601-a53a-4312-b3b8-4ae441a904cc")
+	)
+	(junction
+		(at 215.9 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59e2ac3e-84f0-4bab-8767-0f51c6a22069")
+	)
+	(junction
+		(at 182.88 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "662a6e81-d9ba-4b99-99b2-cd8aa679e6c1")
+	)
+	(junction
+		(at 182.88 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a72d2d3-f316-43c8-a3e4-a317dbcfd7b4")
+	)
+	(junction
+		(at 215.9 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b4b15f0-0e92-423a-a11a-6953e5653e64")
+	)
+	(junction
+		(at 166.37 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a672000d-516b-4df9-ac11-8bab20b33221")
+	)
+	(junction
+		(at 199.39 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa490734-d11f-4058-8220-1b823da55e6f")
+	)
+	(junction
+		(at 215.9 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b351ab31-312a-4965-aab0-4d0333a6b95f")
+	)
+	(junction
+		(at 248.92 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbd042f3-40cf-4bd7-8f5f-29bf43b78af9")
+	)
+	(junction
+		(at 232.41 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c08bd2b2-1c58-4cd0-9418-755f1e9ca3a2")
+	)
+	(junction
+		(at 232.41 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d253e004-83da-49ff-b5df-f07662e9bb99")
+	)
+	(junction
+		(at 199.39 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faadf4c1-c226-465a-94c8-87993bd56a2c")
+	)
+	(wire
+		(pts
+			(xy 232.41 35.56) (xy 232.41 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073b0334-3183-4c1b-9961-648d277f35ef")
+	)
+	(wire
+		(pts
+			(xy 232.41 88.9) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5c9797-a23f-4340-a50f-1bf8d2b978b5")
+	)
+	(wire
+		(pts
+			(xy 199.39 43.18) (xy 215.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e052758-8efc-44e9-b410-910ef87e5eb5")
+	)
+	(wire
+		(pts
+			(xy 182.88 58.42) (xy 182.88 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e75be0e-3a26-4281-bd40-34e14e372d61")
+	)
+	(wire
+		(pts
+			(xy 275.59 53.34) (xy 275.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a32d5dc-3762-4ace-9ce8-a9faa417671a")
+	)
+	(wire
+		(pts
+			(xy 232.41 88.9) (xy 248.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d56d60-d120-4fb7-b8c0-8e4435ff761e")
+	)
+	(wire
+		(pts
+			(xy 193.04 53.34) (xy 193.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a81cfd7-1395-4de6-b303-650e2effe5dc")
+	)
+	(wire
+		(pts
+			(xy 199.39 104.14) (xy 199.39 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f88e731-248a-4b31-9a9b-fd2ea02df065")
+	)
+	(wire
+		(pts
+			(xy 215.9 43.18) (xy 232.41 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a95d3f-c83e-4f7b-8de0-1ddc1742261d")
+	)
+	(wire
+		(pts
+			(xy 242.57 29.21) (xy 242.57 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc9509e-68d9-4c03-b339-6fada2fb3cac")
+	)
+	(wire
+		(pts
+			(xy 232.41 81.28) (xy 232.41 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbcd077-9c61-4290-9643-fec42dec16c8")
+	)
+	(wire
+		(pts
+			(xy 182.88 43.18) (xy 199.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576b84c2-0a26-4c9d-81f8-f53dde2aadbb")
+	)
+	(wire
+		(pts
+			(xy 248.92 64.77) (xy 265.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf6c199-ed83-44cd-be93-03d5b73ef84e")
+	)
+	(wire
+		(pts
+			(xy 176.53 99.06) (xy 176.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf8d472-4652-4d77-8ab0-b485efc72776")
+	)
+	(wire
+		(pts
+			(xy 182.88 109.22) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d964104-c3ef-4e5e-9e66-c8ef54d1117c")
+	)
+	(wire
+		(pts
+			(xy 259.08 74.93) (xy 259.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb3f03e-121a-47e6-b6d5-59c398540ce4")
+	)
+	(wire
+		(pts
+			(xy 209.55 74.93) (xy 209.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60edac9b-009f-402d-92b4-1ef052ae8497")
+	)
+	(wire
+		(pts
+			(xy 226.06 29.21) (xy 226.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6280c9e2-1b81-4a5f-a784-98df170793aa")
+	)
+	(wire
+		(pts
+			(xy 232.41 43.18) (xy 248.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c9d5a9-809b-4c02-b0c1-80274bdb8282")
+	)
+	(wire
+		(pts
+			(xy 232.41 64.77) (xy 248.92 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651069c0-99d2-463f-863c-032b10cb5259")
+	)
+	(wire
+		(pts
+			(xy 209.55 53.34) (xy 209.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66158d5e-8b34-4c3b-9c1c-7f019f64e7a1")
+	)
+	(wire
+		(pts
+			(xy 199.39 35.56) (xy 199.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6abff72b-43db-4f6d-84c4-8356960ec540")
+	)
+	(wire
+		(pts
+			(xy 226.06 74.93) (xy 226.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5e8715-16eb-4188-a8c9-dcdbaf0ad533")
+	)
+	(wire
+		(pts
+			(xy 193.04 29.21) (xy 193.04 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e0326b-4ef1-485f-ad9e-d13db8ee05d3")
+	)
+	(wire
+		(pts
+			(xy 242.57 74.93) (xy 242.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad2fea7-38a5-4529-9b73-69205e6b16a9")
+	)
+	(wire
+		(pts
+			(xy 199.39 64.77) (xy 215.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6bce93-fea5-4960-8542-9ffc87958143")
+	)
+	(wire
+		(pts
+			(xy 182.88 104.14) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecca329-a37e-402b-84de-2d3cc8028b6b")
+	)
+	(wire
+		(pts
+			(xy 215.9 64.77) (xy 232.41 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981a4da0-a27d-4b57-8f63-4cc05cc0324c")
+	)
+	(wire
+		(pts
+			(xy 259.08 53.34) (xy 259.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98cc17f6-3832-4fa2-a8c0-cc5551013cb8")
+	)
+	(wire
+		(pts
+			(xy 248.92 81.28) (xy 248.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1fb7ef-9826-43c8-b416-310123905957")
+	)
+	(wire
+		(pts
+			(xy 199.39 109.22) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c295a91-758b-419b-8042-569709e73729")
+	)
+	(wire
+		(pts
+			(xy 182.88 35.56) (xy 182.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d313281-cc0a-4112-b352-e9eb86c599ad")
+	)
+	(wire
+		(pts
+			(xy 248.92 64.77) (xy 248.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fde3270-a4e6-4494-820e-f90c9a6de7d5")
+	)
+	(wire
+		(pts
+			(xy 232.41 58.42) (xy 232.41 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18a5207-ccda-455f-b40e-ee0236359357")
+	)
+	(wire
+		(pts
+			(xy 182.88 81.28) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d3fc84-d736-4cc6-99f5-09ad88f019df")
+	)
+	(wire
+		(pts
+			(xy 166.37 104.14) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a859ac11-fc54-45c2-9458-48872df3ea23")
+	)
+	(wire
+		(pts
+			(xy 199.39 58.42) (xy 199.39 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cefa7d-7eb6-4e7f-9c93-de0dcd1bf295")
+	)
+	(wire
+		(pts
+			(xy 265.43 64.77) (xy 265.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42a78ea-66de-4760-b74c-10510c4f2fd5")
+	)
+	(wire
+		(pts
+			(xy 199.39 81.28) (xy 199.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a51706-d6af-4abf-8d5b-c45cda7f6104")
+	)
+	(wire
+		(pts
+			(xy 182.88 64.77) (xy 199.39 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacd920a-3e26-4d45-afdc-f222c390cd6f")
+	)
+	(wire
+		(pts
+			(xy 242.57 53.34) (xy 242.57 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8c8ba6-5b1d-4548-b9df-e0f3eda8c1bc")
+	)
+	(wire
+		(pts
+			(xy 259.08 29.21) (xy 259.08 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2af61d7-6c61-4139-a160-a3edbd31f05b")
+	)
+	(wire
+		(pts
+			(xy 215.9 81.28) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c11e9c-f0b4-4b56-bc9c-e13bd87851f7")
+	)
+	(wire
+		(pts
+			(xy 193.04 99.06) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8db63d-5a73-433e-99dd-0cd34e324089")
+	)
+	(wire
+		(pts
+			(xy 215.9 58.42) (xy 215.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd7ff46-fc08-40e7-9357-7e0a2554f536")
+	)
+	(wire
+		(pts
+			(xy 215.9 88.9) (xy 199.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4af52b8-d8fe-4cc9-84f5-9d01786ce9d0")
+	)
+	(wire
+		(pts
+			(xy 209.55 99.06) (xy 209.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daac45ef-bd67-44d1-b26d-9625c0b9a5b5")
+	)
+	(wire
+		(pts
+			(xy 193.04 74.93) (xy 193.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c15ef4-766e-49cd-89db-9b3782d0caed")
+	)
+	(wire
+		(pts
+			(xy 199.39 88.9) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ab49d7-63c0-442b-8c42-e5bd76ee3577")
+	)
+	(wire
+		(pts
+			(xy 215.9 35.56) (xy 215.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25c65eb-8a96-4a67-bd1a-527eeafcdd45")
+	)
+	(wire
+		(pts
+			(xy 209.55 29.21) (xy 209.55 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29d6ea1-ab96-46a5-a851-8a3a5347bd85")
+	)
+	(wire
+		(pts
+			(xy 226.06 53.34) (xy 226.06 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6de118c-6133-48a8-96d9-391f65ee6c9b")
+	)
+	(wire
+		(pts
+			(xy 248.92 43.18) (xy 248.92 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f861f901-f818-4154-89a7-a7b443bea365")
+	)
+	(global_label "C5R2_L"
+		(shape input)
+		(at 193.04 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "186a7291-927b-4d8e-a0e9-8cb859e9b37d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 43.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2R2_L"
+		(shape input)
+		(at 242.57 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d36a417-16bd-4054-8165-a4af83d1f9a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 43.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5R1_L"
+		(shape input)
+		(at 193.04 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24953254-d425-4ac7-924c-8c3f7fa5b1a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 19.2701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4R4_L"
+		(shape input)
+		(at 193.04 99.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39ca685b-3063-412a-8a5e-09f7b77bc103")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 89.1201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4R2_L"
+		(shape input)
+		(at 209.55 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52c41346-f45a-49d4-b7b4-bd670b20918c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 43.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3R2_L"
+		(shape input)
+		(at 226.06 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52ca40ce-2351-4cd8-ab9a-a51c312fb096")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 43.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3R3_L"
+		(shape input)
+		(at 226.06 74.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57e4f159-6c9a-40b5-9860-fca5c74095c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 64.9901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3R3_L"
+		(shape input)
+		(at 209.55 99.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63132998-790c-488b-8707-4a8c63a3b782")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 89.1201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2R1_L"
+		(shape input)
+		(at 242.57 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6823dee6-3655-47a7-9a93-a1a5612d2b78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 19.2701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4R1_L"
+		(shape input)
+		(at 209.55 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69b92ad2-29ab-4f93-ab15-b0d6fdd11c01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 19.2701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C0R2_L"
+		(shape input)
+		(at 275.59 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a90a710-29a2-4e23-9949-1039aaed4be4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.59 43.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2R3_L"
+		(shape input)
+		(at 242.57 74.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ede8a01-15c1-4aaa-aa2d-5591fcb6a5dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 64.9901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3R1_L"
+		(shape input)
+		(at 226.06 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79672622-805a-4572-9eb1-23e9a443e3ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 19.2701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1R1_L"
+		(shape input)
+		(at 259.08 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98cff493-a1b1-4596-8ec0-8d7728cd27be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.08 19.2701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1R2_L"
+		(shape input)
+		(at 259.08 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a094b8f1-38a0-41f0-9463-1920f1e16fc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.08 43.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5R5_L"
+		(shape input)
+		(at 176.53 99.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1728e97-aa77-4208-bb03-31bfd79b1e3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 89.1201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4R4_L"
+		(shape input)
+		(at 209.55 74.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4de7a57-5325-4fc9-ad44-3f14b3771f32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 64.9901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5R5_L"
+		(shape input)
+		(at 193.04 74.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee9d58c2-c64f-458c-a3ee-2f7c80c4ad00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 64.9901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1R3_L"
+		(shape input)
+		(at 259.08 74.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f434d24a-236c-4611-9d1b-6dcf2d9e7b67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.08 64.9901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 204.47 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fc6b732-bdd9-49ff-b8cc-6c79b0241208")
+		(property "Reference" "SW36"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 204.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 204.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85f1d5b6-6674-45ec-8c7b-842fa96ac27b")
+		)
+		(pin "1"
+			(uuid "8a10230b-11ae-4d3a-aa3e-740531eac4d1")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 237.49 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "137b367a-5b54-4f68-bef8-9815ee5ecf45")
+		(property "Reference" "SW32"
+			(at 237.49 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 237.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed8464e3-ed60-4f3b-b9f1-78750642f4b5")
+		)
+		(pin "1"
+			(uuid "be9a0e73-1799-49d7-8ed5-c47608343775")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 187.96 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17738874-fc98-4465-9d8d-34db4177f4e9")
+		(property "Reference" "SW37"
+			(at 187.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53bb9862-0c26-4434-8161-bed315871e21")
+		)
+		(pin "1"
+			(uuid "058319e5-f271-408f-8a1c-9308a2a9dc27")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 254 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18a290fa-36ce-438c-8fd9-b9ca6ecf7ead")
+		(property "Reference" "SW26"
+			(at 254 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 254 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f12ddfad-2a7d-4518-8518-84eccb8a9bc8")
+		)
+		(pin "1"
+			(uuid "fb5222c0-d98a-47dd-bcc6-ba06efceab25")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 187.96 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a67a182-e53d-4f84-941b-c4853a87b686")
+		(property "Reference" "SW24"
+			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 187.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 187.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "623a03f2-1544-431a-a4bd-e3dfcf54d516")
+		)
+		(pin "1"
+			(uuid "62256a80-a5cf-461d-a868-3265ebf67730")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:GND")
+		(at 182.88 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fb45288-7c48-421f-aa36-3ad23930a6ac")
+		(property "Reference" "#PWR07"
+			(at 182.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0677069e-e584-405b-8368-a6c1e9041f10")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 220.98 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32f724b7-3c4e-476b-9c9e-6ffb1194bf75")
+		(property "Reference" "SW28"
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 220.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 220.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 220.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c494541-cd2a-40e2-919d-379a3d8a21ee")
+		)
+		(pin "1"
+			(uuid "b4f2cde5-6569-4252-8dc5-04d9c9050d17")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 187.96 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e38684c-ec96-4869-947c-bd3862fa4162")
+		(property "Reference" "SW30"
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 187.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 187.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa54409b-f845-435b-8fd3-7778cf78cfd5")
+		)
+		(pin "1"
+			(uuid "a1d68517-63d8-417a-bcd4-1d75b1977129")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 204.47 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46cab896-103a-47f5-b6ed-70af31fe6732")
+		(property "Reference" "SW23"
+			(at 204.47 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a40a1d3-6cb0-4e63-a545-9c9375dadef6")
+		)
+		(pin "1"
+			(uuid "7fe8d2d8-406b-4459-b653-b6bb49544836")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:GND")
+		(at 166.37 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4714a001-a493-4939-9e49-02766ed3188c")
+		(property "Reference" "#PWR08"
+			(at 166.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72d07e7d-e4a0-472c-a797-b75e68c0d367")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:GND")
+		(at 182.88 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e80fab4-ac3b-40fe-80bf-2c38152f924d")
+		(property "Reference" "#PWR05"
+			(at 182.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c80bea5a-2dd5-45fe-bd57-884effe50ce3")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 171.45 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d2cb0e8-89db-4ef8-994b-06238237866f")
+		(property "Reference" "SW38"
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54f9e5d3-5489-49eb-a380-85d927f407f9")
+		)
+		(pin "1"
+			(uuid "b123a4d8-70ab-432d-bb07-cdca8ddc1ab4")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 254 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad0a8cf4-251a-4c61-ae42-730a238c3353")
+		(property "Reference" "SW31"
+			(at 254 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 254 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "398921cf-0713-4719-9cbe-4471cfac4afa")
+		)
+		(pin "1"
+			(uuid "075fc31e-c54e-4d6e-a16a-dfc81b538712")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 270.51 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af13b9b5-4c46-4112-8348-124a05e44a65")
+		(property "Reference" "SW25"
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 270.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 270.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 270.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3b28f81-9f37-431f-a350-f3f1104089f3")
+		)
+		(pin "1"
+			(uuid "54d37969-9046-48d7-a1ee-5c48e89ff08d")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 254 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afa324da-9a42-464e-91fe-e5327eff0816")
+		(property "Reference" "SW20"
+			(at 254 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 254 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 254 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 254 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d2acc1b-fe8d-4997-9369-a7da8ab97abd")
+		)
+		(pin "1"
+			(uuid "75f6220e-bbeb-4fdd-a995-c8b4964b9ffc")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 237.49 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b57d563f-ffe5-4eec-85ac-fa62d9a35918")
+		(property "Reference" "SW27"
+			(at 237.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 237.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 237.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 237.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59de28d3-f6c2-4cbf-b368-e4a857148b2a")
+		)
+		(pin "1"
+			(uuid "e175fa1b-18dd-4f76-b48e-55a9860ce9b7")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 220.98 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c650e0fb-ab3b-489b-adfe-9159821e4ace")
+		(property "Reference" "SW22"
+			(at 220.98 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 220.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 220.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9752f113-491e-4e4a-900b-02525936d9fb")
+		)
+		(pin "1"
+			(uuid "b5b36660-9703-4692-9dd4-e3b20e9023b2")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 220.98 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf286231-4fb3-4487-a073-66d0d53a88e9")
+		(property "Reference" "SW33"
+			(at 220.98 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 220.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 220.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 220.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af8cc961-4096-44a2-986f-41a755e28974")
+		)
+		(pin "1"
+			(uuid "f569cc80-2bbd-434f-81ce-5d35d2f1512e")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 204.47 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e99a01fe-e9d1-4ee4-877b-416e2945060d")
+		(property "Reference" "SW29"
+			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 204.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 204.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc667547-c9b1-4ced-baa4-53da3264272a")
+		)
+		(pin "1"
+			(uuid "c4fa779d-4d14-4d43-b0c5-6c110d6cd5d7")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 187.96 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea832c26-95d6-4cd0-87b7-a9e5c2136108")
+		(property "Reference" "SW35"
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 187.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 187.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c33d9d1-e334-4d7c-8e4f-cc00bc5ebbe0")
+		)
+		(pin "1"
+			(uuid "493044e9-afaf-460a-a636-2495363445f4")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 204.47 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2e2fa4f-872c-42c8-b764-11e63df0742f")
+		(property "Reference" "SW34"
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88f928c0-6e48-4ca8-a498-c34a2a4947da")
+		)
+		(pin "1"
+			(uuid "5a9a4bfc-3ec9-4016-97af-1277a000be87")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:GND")
+		(at 182.88 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f665d619-2d79-43ff-ba89-8a8e9483919f")
+		(property "Reference" "#PWR06"
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d26c38e-eae1-4649-8171-1d58d2754862")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATOM:SW_Push")
+		(at 237.49 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff4dcf13-3124-4e10-b38c-82d8d519d254")
+		(property "Reference" "SW21"
+			(at 237.49 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 237.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATOM:Kailh-PG1353-Hotswap-1U"
+			(at 237.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 237.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4e48ccf-c669-4665-b5da-36fbbbc38803")
+		)
+		(pin "1"
+			(uuid "2f930a07-fee6-483c-a92b-16821c77d589")
+		)
+		(instances
+			(project "ATOM"
+				(path "/1018b541-983e-417e-8022-b46deb6b0f11/101a9f69-99ed-471a-b19b-cf20bbe59297"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
